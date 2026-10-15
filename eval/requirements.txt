@@ -1,0 +1,17 @@
+# Core dependencies for the TCM Diagnostic Dialogue Agent
+# Python 3.10+ required
+#
+# NOTE: This is a partial requirements listing for the released code subset.
+# The complete dependency list with version pins is available upon paper acceptance.
+
+numpy>=2.0
+openai>=2.0             # OpenAI-compatible SDK (provider-agnostic)
+Pillow>=11.0            # Image loading and processing
+pyyaml>=6.0             # Configuration file parsing
+requests>=2.32          # HTTP client for API calls
+scikit-learn>=1.7       # Cosine similarity for experience retrieval
+tqdm>=4.67              # Progress bars
+
+# Optional / development
+# torch>=2.0            # Required only for local embedding generation
+# faiss-cpu>=1.8        # Required only for large-scale vector search
