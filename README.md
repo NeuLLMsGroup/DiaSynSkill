@@ -1,7 +1,5 @@
 <h1 align="center">DiaSynSkill: Skill-Guided Synthesis of Multimodal Diagnostic Dialogues</h1>
 
-<p align="center"><strong>Learning reusable diagnostic skills from clinical trajectories</strong></p>
-
 <p align="center">
   <a href="#overview">Overview</a> ·
   <a href="#method">Method</a> ·
